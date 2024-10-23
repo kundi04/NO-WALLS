@@ -128,7 +128,7 @@ body {
   text-align: center;
   gap: 10px;
   row-gap: 10px;
-  padding-left: 35px;
+  padding-left: 65px;
 }
 
 .images img {
@@ -237,6 +237,7 @@ body {
 /* Subscribe section */
 #mail {
   margin: 60px 0;
+  margin-left: 80px;
 }
 
 #mail .main {
@@ -249,6 +250,8 @@ body {
 #mail .main .text {
   max-width: 500px;
 }
+
+
 
 #mail .main .text h1 {
   color: rgba(205, 126, 80, 1);
@@ -321,7 +324,7 @@ footer .div {
   display: flex;
 
   p {
-    margin-left: 200px;
+    margin-left: 100px;
   }
 }
 
@@ -352,18 +355,77 @@ footer .div {
 
 
 @media (max-width:414px) {
-  :root {
+  /* :root {
     width: 140%;
+  } */
+  .images{
+    margin-left: 10px;
   }
+.forth-pic{
+  margin-top: -120px;
+}
+
+.abt-pic{
+  display: none;
+}
+.mailpic{
+  margin-left: 20px;
+}
+.getpic{
+  display: none;
+}
+.text{
+  font-size: 50px;
+  margin-left: 500px;
+}
+.parag{
+  font-size: 23px;
+  margin-left: 500px;
+}
+
+.in{
+  height: 8vh;
+  margin-left: 500px;
+}
+.form-control{
+  height: 8vh;
+}
+
+.bone{
+  height: 8vh;
+ margin-left: 500px;
+}
+
+.cardco{
+  margin-left: -140px;
+
+}
+
+
+.cardco .card{
+  width: 85%;
+  margin-left: 190px;
+}
 
   footer {
-
+  
     margin-top: 150px;
+  }
+ .fp{
+ 
+  margin-left: 85px;
+  }
+  .div3{
+    margin-left: -10px;
   }
 
   .las {
     margin-left: 200px;
   }
+
+.ml2{
+  align-items: center;
+}
 
   .getimg img {
     height: 50vh;
@@ -372,9 +434,35 @@ footer .div {
   .button1 {
     width: 300vh;
   }
+ .ml{
+  margin-left: 180px;
+ }
+.mal img{
+  margin-left: 150px;
+}
 }
 
 @media (max-width:768px) {
+ 
+:root{
+  width: 100vh;
+  overflow-x: hidden;
+}
+
+  .forth-pic{
+    margin-top: -120px;
+  }
+  .title1{
+    width: 60vh;
+  }
+.mailpic{
+  margin-left: 250px;
+}
+
+  .getpic{
+  display: none;
+}
+
   #svc_sec .container {
     margin-left: 20px;
   }
@@ -388,8 +476,34 @@ footer .div {
     gap: 10px;
     row-gap: 10px;
     padding-left: 35px;
+    margin-left: 10px;
+  }
+.card{
+  width: 105%;
+  margin-left: 100px;
+}
+
+  .parag{
+    font-size: 23px;
+    width: 80vh;
   }
 
+  .in{
+    width: 60vh;
+  }
+
+  .form-control{
+    height: 8vh;
+  }
+
+.text{
+  font-size: 50px;
+  width: 60vh;
+}
+.getco{
+  width: 100%;
+  margin-left: -300px
+}
 
   .button1 {
     width: 36vh;
@@ -397,8 +511,9 @@ footer .div {
   }
 }
 
-footer {
-  .las {
-    margin-left: 100px;
-  }
+footer .fp{
+  font-size: 26px;
+}
+.las {
+  margin-left: 100px;
 }

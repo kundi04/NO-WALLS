@@ -10,8 +10,8 @@ function Cards() {
           <h1 className=" mb-4 servtext">Our Services To<br />Deliver Amazing Products</h1>
         </div>
         <div className=" container  row">
-          <div className="col-md-4 mb-4 ">
-            <div className="card border-0">
+          <div className="col-md-4 mb-4 cardco">
+            <div className="card border-0 ">
               <img src={Ser1} alt="Service 1" className="card-img-top img-fluid" />
               <div className="card-body ">
                 <h2 className="h5">Services</h2>
@@ -24,7 +24,7 @@ function Cards() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-md-4 mb-4 cardco">
             <div className="card border-0">
               <img src={Ser2} alt="Service 2" className="card-img-top img-fluid" />
               <div className="card-body">
@@ -38,7 +38,7 @@ function Cards() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-4">
+          <div className="col-md-4 mb-4 cardco">
             <div className="card border-0">
               <img src={Ser3} alt="Service 3" className="card-img-top img-fluid" />
               <div className="card-body">

@@ -2,7 +2,7 @@ function Footer() {
     return (
         <>
             <footer>
-                <h1>
+                <h1 className="fp">
                     Nowwalls Pan Africa,Dare To Differ
                 </h1>
                 <div class="div">
